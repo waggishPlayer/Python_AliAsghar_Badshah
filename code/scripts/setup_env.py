@@ -1,12 +1,9 @@
-#!/usr/bin/env python3
-
 import subprocess
 import sys
 from pathlib import Path
 from typing import List
 
 def run_command(cmd: List[str], description: str) -> bool:
-    """Run a command quietly; print only on error."""
     try:
         subprocess.run(cmd, check=True, capture_output=True, text=True)
         return True
@@ -18,9 +15,8 @@ def run_command(cmd: List[str], description: str) -> bool:
         print(f"Error while {description}: command not found")
         return False
 
-
+#To set up the development environment and install all the dependencies
 def main() -> None:
-    """Set up the development environment."""
     root_dir = Path(__file__).parent.parent
     venv_dir = root_dir / "venv"
     requirements_file = root_dir / "requirements.txt"
