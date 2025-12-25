@@ -1,0 +1,2 @@
+2025-12-25 15:16:36,117 - src.agents.audit - INFO - Audit - Agent: PercentageAgent | Inputs: [value=800.0, percentage=30.0] | Output: 240.0 | Status: success
+2025-12-25 15:16:36,119 - src.agents.audit - INFO - Validation passed for output: 240.0

@@ -1,0 +1,6 @@
+2025-12-25 15:17:22,620 - src.agents.audit - INFO - Audit - Agent: ArithmeticAgent | Inputs: [value=80.0, value2=0.0, operation=divide] | Output: 80.0 | Status: failed
+2025-12-25 15:17:22,620 - src.agents.audit - INFO - Validation passed for output: 80.0
+2025-12-25 15:17:36,330 - src.agents.audit - INFO - Audit - Agent: ArithmeticAgent | Inputs: [value=70.0, value2=10.0, operation=divide] | Output: 7.0 | Status: success
+2025-12-25 15:17:36,331 - src.agents.audit - INFO - Validation passed for output: 7.0
+2025-12-25 15:27:05,626 - src.agents.audit - INFO - Audit - Agent: ArithmeticAgent | Inputs: [value=200.0, value2=300.0, operation=subtract] | Output: -100.0 | Status: success
+2025-12-25 15:27:05,628 - src.agents.audit - WARNING - Negative value detected: -100.0

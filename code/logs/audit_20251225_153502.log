@@ -1,0 +1,4 @@
+2025-12-25 15:35:27,697 - src.agents.audit - INFO - Audit - Agent: PercentageAgent | Inputs: [value=800.0, percentage=50.0] | Output: 400.0 | Status: success
+2025-12-25 15:35:27,697 - src.agents.audit - INFO - Validation passed for output: 400.0
+2025-12-25 15:36:08,336 - src.agents.audit - INFO - Audit - Agent: ArithmeticAgent | Inputs: [value=300.0, value2=400.0, operation=subtract] | Output: -100.0 | Status: success
+2025-12-25 15:36:08,339 - src.agents.audit - WARNING - Negative value detected: -100.0
