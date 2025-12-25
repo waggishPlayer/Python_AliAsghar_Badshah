@@ -1,6 +1,0 @@
-2025-12-25 16:29:53,816 - src.agents.audit - INFO - Audit - Agent: PercentageAgent | Inputs: [value=900.0, percentage=10.0] | Output: 90.0 | Status: success
-2025-12-25 16:29:53,817 - src.agents.audit - INFO - Validation passed for output: 90.0
-2025-12-25 16:29:53,818 - src.agents.audit - INFO - Audit - Agent: ArithmeticAgent | Inputs: [value=900.0, value2=90.0, operation=add] | Output: 990.0 | Status: success
-2025-12-25 16:29:53,818 - src.agents.audit - INFO - Validation passed for output: 990.0
-2025-12-25 16:29:53,818 - src.agents.audit - INFO - Audit - Agent: WorkflowFinalValidation | Inputs: [value=900.0, value2=90.0, operation=add] | Output: 990.0 | Status: success
-2025-12-25 16:29:53,818 - src.agents.audit - INFO - Validation passed for output: 990.0
